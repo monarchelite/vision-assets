@@ -46,7 +46,7 @@ export function buildCdnJson(
 
     sizes.forEach((size) => {
       const fileName = `${fileNameBase}.${format}`;
-      const url = `https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/assets/optimized/${parts
+      const url = `https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/${parts
         .slice(0, -1)
         .join('/')}/${size.name}/${fileName}`;
 
@@ -149,8 +149,9 @@ export default cdn;
   console.log('CDN TS file generated at:', path.join(cdnFolder, 'cdn.ts'));
 }
 async function main() {
-  // Automatically detect /assets/originals
-  let defaultDir = path.join(process.cwd(), Folders.ORIGINALS);
+  // Automatically detect /assets/originals one folder up
+  let defaultDir = path.join(process.cwd(), '..', Folders.ORIGINALS);
+
   if (!fs.existsSync(defaultDir)) defaultDir = process.cwd();
 
   const answers = await inquirer.prompt([
@@ -246,7 +247,7 @@ async function main() {
           });
           break;
         case ImageFormat.WEBP:
-          pipeline = pipeline.webp({ quality, lossless: true });
+          pipeline = pipeline.webp({ quality, lossless: true, effort: 1 });
           break;
         case ImageFormat.AVIF:
           pipeline = pipeline.avif({ quality, effort: 6 });

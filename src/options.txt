@@ -1,6 +1,0 @@
-export const sizes = [
-  // { name: 'xs', width: 160 },
-  { name: 'sm', width: 320 },
-  // { name: 'md', width: 720 },
-  { name: 'lg', width: 1080 },
-];
