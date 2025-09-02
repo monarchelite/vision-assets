@@ -247,7 +247,10 @@ async function main() {
           });
           break;
         case ImageFormat.WEBP:
-          pipeline = pipeline.webp({ quality, lossless: true, effort: 6 });
+          pipeline = pipeline.webp({
+            quality,
+            // lossless: true,
+          });
           break;
         case ImageFormat.AVIF:
           pipeline = pipeline.avif({ quality, effort: 6 });
