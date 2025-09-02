@@ -1,0 +1,25 @@
+// src/types.ts
+
+export enum Folders {
+  ORIGINALS = 'originals',
+  OPTIMIZED = 'optimized',
+  CDN = 'cdn',
+}
+
+export enum ImageFormat {
+  JPEG = 'jpeg',
+  PNG = 'png',
+  WEBP = 'webp',
+  AVIF = 'avif',
+}
+
+// Optional: type for image size categories
+export type Size = 'sm' | 'md' | 'lg';
+
+export interface ImageEntry {
+  name: string;
+  size: Size;
+  url: string;
+}
+
+export type CdnStructure = Record<string, any>; // Nested folders → sizes → array of ImageEntry

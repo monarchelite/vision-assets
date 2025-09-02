@@ -1,0 +1,29 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "Neeraj",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "commander": "^14.0.0",
+    "glob": "^11.0.3",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.9.4",
+    "lodash": "^4.17.21",
+    "ora": "^8.2.0",
+    "sharp": "^0.34.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.20"
+  }
+}
