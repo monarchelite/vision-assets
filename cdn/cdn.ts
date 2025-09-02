@@ -31,16 +31,16 @@ import visionOsV4DayBedroomRetreatSm from "raw:assets/rooms/vision-os-v4/day/sm/
 import visionOsV4DayBedroomRetreatLg from "raw:assets/rooms/vision-os-v4/day/lg/bedroom-retreat.webp";
 import visionOsV4DayBalconyWithSofaAndStairsSm from "raw:assets/rooms/vision-os-v4/day/sm/balcony-with-sofa-and-stairs.webp";
 import visionOsV4DayBalconyWithSofaAndStairsLg from "raw:assets/rooms/vision-os-v4/day/lg/balcony-with-sofa-and-stairs.webp";
-import visionOsV3LightSunlightOnWindowSm from "raw:assets/rooms/vision-os-v3/light/sm/sunlight-on-window.webp";
-import visionOsV3LightSunlightOnWindowLg from "raw:assets/rooms/vision-os-v3/light/lg/sunlight-on-window.webp";
-import visionOsV3LightSofaLivingRoomSm from "raw:assets/rooms/vision-os-v3/light/sm/sofa-living-room.webp";
-import visionOsV3LightSofaLivingRoomLg from "raw:assets/rooms/vision-os-v3/light/lg/sofa-living-room.webp";
-import visionOsV3LightSkySceneSm from "raw:assets/rooms/vision-os-v3/light/sm/sky-scene.webp";
-import visionOsV3LightSkySceneLg from "raw:assets/rooms/vision-os-v3/light/lg/sky-scene.webp";
-import visionOsV3LightSkyClearSm from "raw:assets/rooms/vision-os-v3/light/sm/sky-clear.webp";
-import visionOsV3LightSkyClearLg from "raw:assets/rooms/vision-os-v3/light/lg/sky-clear.webp";
-import visionOsV3LightReadingAreaRoomSm from "raw:assets/rooms/vision-os-v3/light/sm/reading-area-room.webp";
-import visionOsV3LightReadingAreaRoomLg from "raw:assets/rooms/vision-os-v3/light/lg/reading-area-room.webp";
+import visionOsV3DaySunlightOnWindowSm from "raw:assets/rooms/vision-os-v3/day/sm/sunlight-on-window.webp";
+import visionOsV3DaySunlightOnWindowLg from "raw:assets/rooms/vision-os-v3/day/lg/sunlight-on-window.webp";
+import visionOsV3DaySofaLivingRoomSm from "raw:assets/rooms/vision-os-v3/day/sm/sofa-living-room.webp";
+import visionOsV3DaySofaLivingRoomLg from "raw:assets/rooms/vision-os-v3/day/lg/sofa-living-room.webp";
+import visionOsV3DaySkySceneSm from "raw:assets/rooms/vision-os-v3/day/sm/sky-scene.webp";
+import visionOsV3DaySkySceneLg from "raw:assets/rooms/vision-os-v3/day/lg/sky-scene.webp";
+import visionOsV3DaySkyClearSm from "raw:assets/rooms/vision-os-v3/day/sm/sky-clear.webp";
+import visionOsV3DaySkyClearLg from "raw:assets/rooms/vision-os-v3/day/lg/sky-clear.webp";
+import visionOsV3DayReadingAreaRoomSm from "raw:assets/rooms/vision-os-v3/day/sm/reading-area-room.webp";
+import visionOsV3DayReadingAreaRoomLg from "raw:assets/rooms/vision-os-v3/day/lg/reading-area-room.webp";
 import visionOsV2DayNameOfficeSanctuarySm from "raw:assets/rooms/vision-os-v2/day/sm/name-office-sanctuary.webp";
 import visionOsV2DayNameOfficeSanctuaryLg from "raw:assets/rooms/vision-os-v2/day/lg/name-office-sanctuary.webp";
 import visionOsV2DayNameLivingRoomWithViewSm from "raw:assets/rooms/vision-os-v2/day/sm/name-living-room-with-view.webp";
@@ -59,50 +59,50 @@ import visionOsV2DayNameKitchenHavenSm from "raw:assets/rooms/vision-os-v2/day/s
 import visionOsV2DayNameKitchenHavenLg from "raw:assets/rooms/vision-os-v2/day/lg/name-kitchen-haven.webp";
 import visionOsV2DayNameBedroomRetreatSm from "raw:assets/rooms/vision-os-v2/day/sm/name-bedroom-retreat.webp";
 import visionOsV2DayNameBedroomRetreatLg from "raw:assets/rooms/vision-os-v2/day/lg/name-bedroom-retreat.webp";
-import visionOsLightTimeDayRoomWashroomSm from "raw:assets/rooms/vision-os/light/sm/time-day-room-washroom.webp";
-import visionOsLightTimeDayRoomWashroomLg from "raw:assets/rooms/vision-os/light/lg/time-day-room-washroom.webp";
-import visionOsLightTimeDayRoomOfficeSm from "raw:assets/rooms/vision-os/light/sm/time-day-room-office.webp";
-import visionOsLightTimeDayRoomOfficeLg from "raw:assets/rooms/vision-os/light/lg/time-day-room-office.webp";
-import visionOsLightTimeDayRoomLivingRoomSm from "raw:assets/rooms/vision-os/light/sm/time-day-room-living-room.webp";
-import visionOsLightTimeDayRoomLivingRoomLg from "raw:assets/rooms/vision-os/light/lg/time-day-room-living-room.webp";
-import visionOsLightTimeDayRoomKitchenSm from "raw:assets/rooms/vision-os/light/sm/time-day-room-kitchen.webp";
-import visionOsLightTimeDayRoomKitchenLg from "raw:assets/rooms/vision-os/light/lg/time-day-room-kitchen.webp";
-import visionOsLightTimeDayRoomGymSm from "raw:assets/rooms/vision-os/light/sm/time-day-room-gym.webp";
-import visionOsLightTimeDayRoomGymLg from "raw:assets/rooms/vision-os/light/lg/time-day-room-gym.webp";
-import visionOsLightTimeDayRoomFamilyRoomSm from "raw:assets/rooms/vision-os/light/sm/time-day-room-family-room.webp";
-import visionOsLightTimeDayRoomFamilyRoomLg from "raw:assets/rooms/vision-os/light/lg/time-day-room-family-room.webp";
-import visionOsLightTimeDayRoomDiningRoomSm from "raw:assets/rooms/vision-os/light/sm/time-day-room-dining-room.webp";
-import visionOsLightTimeDayRoomDiningRoomLg from "raw:assets/rooms/vision-os/light/lg/time-day-room-dining-room.webp";
-import visionOsLightTimeDayRoomBedroomSm from "raw:assets/rooms/vision-os/light/sm/time-day-room-bedroom.webp";
-import visionOsLightTimeDayRoomBedroomLg from "raw:assets/rooms/vision-os/light/lg/time-day-room-bedroom.webp";
-import visionOsLightTimeDayRoomBathroomSm from "raw:assets/rooms/vision-os/light/sm/time-day-room-bathroom.webp";
-import visionOsLightTimeDayRoomBathroomLg from "raw:assets/rooms/vision-os/light/lg/time-day-room-bathroom.webp";
-import visionOsLightTimeDayRoomBackYardSm from "raw:assets/rooms/vision-os/light/sm/time-day-room-back-yard.webp";
-import visionOsLightTimeDayRoomBackYardLg from "raw:assets/rooms/vision-os/light/lg/time-day-room-back-yard.webp";
-import visionOsDarkTimeNightRoomWashroomSm from "raw:assets/rooms/vision-os/dark/sm/time-night-room-washroom.webp";
-import visionOsDarkTimeNightRoomWashroomLg from "raw:assets/rooms/vision-os/dark/lg/time-night-room-washroom.webp";
-import visionOsDarkTimeNightRoomOfficeSm from "raw:assets/rooms/vision-os/dark/sm/time-night-room-office.webp";
-import visionOsDarkTimeNightRoomOfficeLg from "raw:assets/rooms/vision-os/dark/lg/time-night-room-office.webp";
-import visionOsDarkTimeNightRoomLivingRoomSm from "raw:assets/rooms/vision-os/dark/sm/time-night-room-living-room.webp";
-import visionOsDarkTimeNightRoomLivingRoomLg from "raw:assets/rooms/vision-os/dark/lg/time-night-room-living-room.webp";
-import visionOsDarkTimeNightRoomKitchenSm from "raw:assets/rooms/vision-os/dark/sm/time-night-room-kitchen.webp";
-import visionOsDarkTimeNightRoomKitchenLg from "raw:assets/rooms/vision-os/dark/lg/time-night-room-kitchen.webp";
-import visionOsDarkTimeNightRoomGymSm from "raw:assets/rooms/vision-os/dark/sm/time-night-room-gym.webp";
-import visionOsDarkTimeNightRoomGymLg from "raw:assets/rooms/vision-os/dark/lg/time-night-room-gym.webp";
-import visionOsDarkTimeNightRoomFamilyRoomSm from "raw:assets/rooms/vision-os/dark/sm/time-night-room-family-room.webp";
-import visionOsDarkTimeNightRoomFamilyRoomLg from "raw:assets/rooms/vision-os/dark/lg/time-night-room-family-room.webp";
-import visionOsDarkTimeNightRoomDiningRoomSm from "raw:assets/rooms/vision-os/dark/sm/time-night-room-dining-room.webp";
-import visionOsDarkTimeNightRoomDiningRoomLg from "raw:assets/rooms/vision-os/dark/lg/time-night-room-dining-room.webp";
-import visionOsDarkTimeNightRoomBedroomSm from "raw:assets/rooms/vision-os/dark/sm/time-night-room-bedroom.webp";
-import visionOsDarkTimeNightRoomBedroomLg from "raw:assets/rooms/vision-os/dark/lg/time-night-room-bedroom.webp";
-import visionOsDarkTimeNightRoomBathroomSm from "raw:assets/rooms/vision-os/dark/sm/time-night-room-bathroom.webp";
-import visionOsDarkTimeNightRoomBathroomLg from "raw:assets/rooms/vision-os/dark/lg/time-night-room-bathroom.webp";
-import visionOsDarkTimeNightRoomBackYardSm from "raw:assets/rooms/vision-os/dark/sm/time-night-room-back-yard.webp";
-import visionOsDarkTimeNightRoomBackYardLg from "raw:assets/rooms/vision-os/dark/lg/time-night-room-back-yard.webp";
-import appleLightTimeDayRoomModernApartmentSm from "raw:assets/rooms/apple/light/sm/time-day-room-modern-apartment.webp";
-import appleLightTimeDayRoomModernApartmentLg from "raw:assets/rooms/apple/light/lg/time-day-room-modern-apartment.webp";
-import appleDarkTimeNightRoomModernApartmentSm from "raw:assets/rooms/apple/dark/sm/time-night-room-modern-apartment.webp";
-import appleDarkTimeNightRoomModernApartmentLg from "raw:assets/rooms/apple/dark/lg/time-night-room-modern-apartment.webp";
+import visionOsNightTimeNightRoomWashroomSm from "raw:assets/rooms/vision-os/night/sm/time-night-room-washroom.webp";
+import visionOsNightTimeNightRoomWashroomLg from "raw:assets/rooms/vision-os/night/lg/time-night-room-washroom.webp";
+import visionOsNightTimeNightRoomOfficeSm from "raw:assets/rooms/vision-os/night/sm/time-night-room-office.webp";
+import visionOsNightTimeNightRoomOfficeLg from "raw:assets/rooms/vision-os/night/lg/time-night-room-office.webp";
+import visionOsNightTimeNightRoomLivingRoomSm from "raw:assets/rooms/vision-os/night/sm/time-night-room-living-room.webp";
+import visionOsNightTimeNightRoomLivingRoomLg from "raw:assets/rooms/vision-os/night/lg/time-night-room-living-room.webp";
+import visionOsNightTimeNightRoomKitchenSm from "raw:assets/rooms/vision-os/night/sm/time-night-room-kitchen.webp";
+import visionOsNightTimeNightRoomKitchenLg from "raw:assets/rooms/vision-os/night/lg/time-night-room-kitchen.webp";
+import visionOsNightTimeNightRoomGymSm from "raw:assets/rooms/vision-os/night/sm/time-night-room-gym.webp";
+import visionOsNightTimeNightRoomGymLg from "raw:assets/rooms/vision-os/night/lg/time-night-room-gym.webp";
+import visionOsNightTimeNightRoomFamilyRoomSm from "raw:assets/rooms/vision-os/night/sm/time-night-room-family-room.webp";
+import visionOsNightTimeNightRoomFamilyRoomLg from "raw:assets/rooms/vision-os/night/lg/time-night-room-family-room.webp";
+import visionOsNightTimeNightRoomDiningRoomSm from "raw:assets/rooms/vision-os/night/sm/time-night-room-dining-room.webp";
+import visionOsNightTimeNightRoomDiningRoomLg from "raw:assets/rooms/vision-os/night/lg/time-night-room-dining-room.webp";
+import visionOsNightTimeNightRoomBedroomSm from "raw:assets/rooms/vision-os/night/sm/time-night-room-bedroom.webp";
+import visionOsNightTimeNightRoomBedroomLg from "raw:assets/rooms/vision-os/night/lg/time-night-room-bedroom.webp";
+import visionOsNightTimeNightRoomBathroomSm from "raw:assets/rooms/vision-os/night/sm/time-night-room-bathroom.webp";
+import visionOsNightTimeNightRoomBathroomLg from "raw:assets/rooms/vision-os/night/lg/time-night-room-bathroom.webp";
+import visionOsNightTimeNightRoomBackYardSm from "raw:assets/rooms/vision-os/night/sm/time-night-room-back-yard.webp";
+import visionOsNightTimeNightRoomBackYardLg from "raw:assets/rooms/vision-os/night/lg/time-night-room-back-yard.webp";
+import visionOsDayTimeDayRoomWashroomSm from "raw:assets/rooms/vision-os/day/sm/time-day-room-washroom.webp";
+import visionOsDayTimeDayRoomWashroomLg from "raw:assets/rooms/vision-os/day/lg/time-day-room-washroom.webp";
+import visionOsDayTimeDayRoomOfficeSm from "raw:assets/rooms/vision-os/day/sm/time-day-room-office.webp";
+import visionOsDayTimeDayRoomOfficeLg from "raw:assets/rooms/vision-os/day/lg/time-day-room-office.webp";
+import visionOsDayTimeDayRoomLivingRoomSm from "raw:assets/rooms/vision-os/day/sm/time-day-room-living-room.webp";
+import visionOsDayTimeDayRoomLivingRoomLg from "raw:assets/rooms/vision-os/day/lg/time-day-room-living-room.webp";
+import visionOsDayTimeDayRoomKitchenSm from "raw:assets/rooms/vision-os/day/sm/time-day-room-kitchen.webp";
+import visionOsDayTimeDayRoomKitchenLg from "raw:assets/rooms/vision-os/day/lg/time-day-room-kitchen.webp";
+import visionOsDayTimeDayRoomGymSm from "raw:assets/rooms/vision-os/day/sm/time-day-room-gym.webp";
+import visionOsDayTimeDayRoomGymLg from "raw:assets/rooms/vision-os/day/lg/time-day-room-gym.webp";
+import visionOsDayTimeDayRoomFamilyRoomSm from "raw:assets/rooms/vision-os/day/sm/time-day-room-family-room.webp";
+import visionOsDayTimeDayRoomFamilyRoomLg from "raw:assets/rooms/vision-os/day/lg/time-day-room-family-room.webp";
+import visionOsDayTimeDayRoomDiningRoomSm from "raw:assets/rooms/vision-os/day/sm/time-day-room-dining-room.webp";
+import visionOsDayTimeDayRoomDiningRoomLg from "raw:assets/rooms/vision-os/day/lg/time-day-room-dining-room.webp";
+import visionOsDayTimeDayRoomBedroomSm from "raw:assets/rooms/vision-os/day/sm/time-day-room-bedroom.webp";
+import visionOsDayTimeDayRoomBedroomLg from "raw:assets/rooms/vision-os/day/lg/time-day-room-bedroom.webp";
+import visionOsDayTimeDayRoomBathroomSm from "raw:assets/rooms/vision-os/day/sm/time-day-room-bathroom.webp";
+import visionOsDayTimeDayRoomBathroomLg from "raw:assets/rooms/vision-os/day/lg/time-day-room-bathroom.webp";
+import visionOsDayTimeDayRoomBackYardSm from "raw:assets/rooms/vision-os/day/sm/time-day-room-back-yard.webp";
+import visionOsDayTimeDayRoomBackYardLg from "raw:assets/rooms/vision-os/day/lg/time-day-room-back-yard.webp";
+import appleNightTimeNightRoomModernApartmentSm from "raw:assets/rooms/apple/night/sm/time-night-room-modern-apartment.webp";
+import appleNightTimeNightRoomModernApartmentLg from "raw:assets/rooms/apple/night/lg/time-night-room-modern-apartment.webp";
+import appleDayTimeDayRoomModernApartmentSm from "raw:assets/rooms/apple/day/sm/time-day-room-modern-apartment.webp";
+import appleDayTimeDayRoomModernApartmentLg from "raw:assets/rooms/apple/day/lg/time-day-room-modern-apartment.webp";
 
 const cdn = {
   "vision-os-v5": {
@@ -212,35 +212,35 @@ const cdn = {
     }
   },
   "vision-os-v3": {
-    "light": {
+    "day": {
       "sunlight-on-window": {
         "sources": {
-          sm: visionOsV3LightSunlightOnWindowSm,
-          lg: visionOsV3LightSunlightOnWindowLg
+          sm: visionOsV3DaySunlightOnWindowSm,
+          lg: visionOsV3DaySunlightOnWindowLg
         }
       },
       "sofa-living-room": {
         "sources": {
-          sm: visionOsV3LightSofaLivingRoomSm,
-          lg: visionOsV3LightSofaLivingRoomLg
+          sm: visionOsV3DaySofaLivingRoomSm,
+          lg: visionOsV3DaySofaLivingRoomLg
         }
       },
       "sky-scene": {
         "sources": {
-          sm: visionOsV3LightSkySceneSm,
-          lg: visionOsV3LightSkySceneLg
+          sm: visionOsV3DaySkySceneSm,
+          lg: visionOsV3DaySkySceneLg
         }
       },
       "sky-clear": {
         "sources": {
-          sm: visionOsV3LightSkyClearSm,
-          lg: visionOsV3LightSkyClearLg
+          sm: visionOsV3DaySkyClearSm,
+          lg: visionOsV3DaySkyClearLg
         }
       },
       "reading-area-room": {
         "sources": {
-          sm: visionOsV3LightReadingAreaRoomSm,
-          lg: visionOsV3LightReadingAreaRoomLg
+          sm: visionOsV3DayReadingAreaRoomSm,
+          lg: visionOsV3DayReadingAreaRoomLg
         }
       }
     }
@@ -304,145 +304,145 @@ const cdn = {
     }
   },
   "vision-os": {
-    "light": {
-      "time-day-room-washroom": {
-        "sources": {
-          sm: visionOsLightTimeDayRoomWashroomSm,
-          lg: visionOsLightTimeDayRoomWashroomLg
-        }
-      },
-      "time-day-room-office": {
-        "sources": {
-          sm: visionOsLightTimeDayRoomOfficeSm,
-          lg: visionOsLightTimeDayRoomOfficeLg
-        }
-      },
-      "time-day-room-living-room": {
-        "sources": {
-          sm: visionOsLightTimeDayRoomLivingRoomSm,
-          lg: visionOsLightTimeDayRoomLivingRoomLg
-        }
-      },
-      "time-day-room-kitchen": {
-        "sources": {
-          sm: visionOsLightTimeDayRoomKitchenSm,
-          lg: visionOsLightTimeDayRoomKitchenLg
-        }
-      },
-      "time-day-room-gym": {
-        "sources": {
-          sm: visionOsLightTimeDayRoomGymSm,
-          lg: visionOsLightTimeDayRoomGymLg
-        }
-      },
-      "time-day-room-family-room": {
-        "sources": {
-          sm: visionOsLightTimeDayRoomFamilyRoomSm,
-          lg: visionOsLightTimeDayRoomFamilyRoomLg
-        }
-      },
-      "time-day-room-dining-room": {
-        "sources": {
-          sm: visionOsLightTimeDayRoomDiningRoomSm,
-          lg: visionOsLightTimeDayRoomDiningRoomLg
-        }
-      },
-      "time-day-room-bedroom": {
-        "sources": {
-          sm: visionOsLightTimeDayRoomBedroomSm,
-          lg: visionOsLightTimeDayRoomBedroomLg
-        }
-      },
-      "time-day-room-bathroom": {
-        "sources": {
-          sm: visionOsLightTimeDayRoomBathroomSm,
-          lg: visionOsLightTimeDayRoomBathroomLg
-        }
-      },
-      "time-day-room-back-yard": {
-        "sources": {
-          sm: visionOsLightTimeDayRoomBackYardSm,
-          lg: visionOsLightTimeDayRoomBackYardLg
-        }
-      }
-    },
-    "dark": {
+    "night": {
       "time-night-room-washroom": {
         "sources": {
-          sm: visionOsDarkTimeNightRoomWashroomSm,
-          lg: visionOsDarkTimeNightRoomWashroomLg
+          sm: visionOsNightTimeNightRoomWashroomSm,
+          lg: visionOsNightTimeNightRoomWashroomLg
         }
       },
       "time-night-room-office": {
         "sources": {
-          sm: visionOsDarkTimeNightRoomOfficeSm,
-          lg: visionOsDarkTimeNightRoomOfficeLg
+          sm: visionOsNightTimeNightRoomOfficeSm,
+          lg: visionOsNightTimeNightRoomOfficeLg
         }
       },
       "time-night-room-living-room": {
         "sources": {
-          sm: visionOsDarkTimeNightRoomLivingRoomSm,
-          lg: visionOsDarkTimeNightRoomLivingRoomLg
+          sm: visionOsNightTimeNightRoomLivingRoomSm,
+          lg: visionOsNightTimeNightRoomLivingRoomLg
         }
       },
       "time-night-room-kitchen": {
         "sources": {
-          sm: visionOsDarkTimeNightRoomKitchenSm,
-          lg: visionOsDarkTimeNightRoomKitchenLg
+          sm: visionOsNightTimeNightRoomKitchenSm,
+          lg: visionOsNightTimeNightRoomKitchenLg
         }
       },
       "time-night-room-gym": {
         "sources": {
-          sm: visionOsDarkTimeNightRoomGymSm,
-          lg: visionOsDarkTimeNightRoomGymLg
+          sm: visionOsNightTimeNightRoomGymSm,
+          lg: visionOsNightTimeNightRoomGymLg
         }
       },
       "time-night-room-family-room": {
         "sources": {
-          sm: visionOsDarkTimeNightRoomFamilyRoomSm,
-          lg: visionOsDarkTimeNightRoomFamilyRoomLg
+          sm: visionOsNightTimeNightRoomFamilyRoomSm,
+          lg: visionOsNightTimeNightRoomFamilyRoomLg
         }
       },
       "time-night-room-dining-room": {
         "sources": {
-          sm: visionOsDarkTimeNightRoomDiningRoomSm,
-          lg: visionOsDarkTimeNightRoomDiningRoomLg
+          sm: visionOsNightTimeNightRoomDiningRoomSm,
+          lg: visionOsNightTimeNightRoomDiningRoomLg
         }
       },
       "time-night-room-bedroom": {
         "sources": {
-          sm: visionOsDarkTimeNightRoomBedroomSm,
-          lg: visionOsDarkTimeNightRoomBedroomLg
+          sm: visionOsNightTimeNightRoomBedroomSm,
+          lg: visionOsNightTimeNightRoomBedroomLg
         }
       },
       "time-night-room-bathroom": {
         "sources": {
-          sm: visionOsDarkTimeNightRoomBathroomSm,
-          lg: visionOsDarkTimeNightRoomBathroomLg
+          sm: visionOsNightTimeNightRoomBathroomSm,
+          lg: visionOsNightTimeNightRoomBathroomLg
         }
       },
       "time-night-room-back-yard": {
         "sources": {
-          sm: visionOsDarkTimeNightRoomBackYardSm,
-          lg: visionOsDarkTimeNightRoomBackYardLg
+          sm: visionOsNightTimeNightRoomBackYardSm,
+          lg: visionOsNightTimeNightRoomBackYardLg
+        }
+      }
+    },
+    "day": {
+      "time-day-room-washroom": {
+        "sources": {
+          sm: visionOsDayTimeDayRoomWashroomSm,
+          lg: visionOsDayTimeDayRoomWashroomLg
+        }
+      },
+      "time-day-room-office": {
+        "sources": {
+          sm: visionOsDayTimeDayRoomOfficeSm,
+          lg: visionOsDayTimeDayRoomOfficeLg
+        }
+      },
+      "time-day-room-living-room": {
+        "sources": {
+          sm: visionOsDayTimeDayRoomLivingRoomSm,
+          lg: visionOsDayTimeDayRoomLivingRoomLg
+        }
+      },
+      "time-day-room-kitchen": {
+        "sources": {
+          sm: visionOsDayTimeDayRoomKitchenSm,
+          lg: visionOsDayTimeDayRoomKitchenLg
+        }
+      },
+      "time-day-room-gym": {
+        "sources": {
+          sm: visionOsDayTimeDayRoomGymSm,
+          lg: visionOsDayTimeDayRoomGymLg
+        }
+      },
+      "time-day-room-family-room": {
+        "sources": {
+          sm: visionOsDayTimeDayRoomFamilyRoomSm,
+          lg: visionOsDayTimeDayRoomFamilyRoomLg
+        }
+      },
+      "time-day-room-dining-room": {
+        "sources": {
+          sm: visionOsDayTimeDayRoomDiningRoomSm,
+          lg: visionOsDayTimeDayRoomDiningRoomLg
+        }
+      },
+      "time-day-room-bedroom": {
+        "sources": {
+          sm: visionOsDayTimeDayRoomBedroomSm,
+          lg: visionOsDayTimeDayRoomBedroomLg
+        }
+      },
+      "time-day-room-bathroom": {
+        "sources": {
+          sm: visionOsDayTimeDayRoomBathroomSm,
+          lg: visionOsDayTimeDayRoomBathroomLg
+        }
+      },
+      "time-day-room-back-yard": {
+        "sources": {
+          sm: visionOsDayTimeDayRoomBackYardSm,
+          lg: visionOsDayTimeDayRoomBackYardLg
         }
       }
     }
   },
   "apple": {
-    "light": {
-      "time-day-room-modern-apartment": {
+    "night": {
+      "time-night-room-modern-apartment": {
         "sources": {
-          sm: appleLightTimeDayRoomModernApartmentSm,
-          lg: appleLightTimeDayRoomModernApartmentLg
+          sm: appleNightTimeNightRoomModernApartmentSm,
+          lg: appleNightTimeNightRoomModernApartmentLg
         }
       }
     },
-    "dark": {
-      "time-night-room-modern-apartment": {
+    "day": {
+      "time-day-room-modern-apartment": {
         "sources": {
-          sm: appleDarkTimeNightRoomModernApartmentSm,
-          lg: appleDarkTimeNightRoomModernApartmentLg
+          sm: appleDayTimeDayRoomModernApartmentSm,
+          lg: appleDayTimeDayRoomModernApartmentLg
         }
       }
     }
