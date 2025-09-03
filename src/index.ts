@@ -19,7 +19,17 @@ const sizes = [
 enum Folders {
   ORIGINALS = 'originals',
   OPTIMIZED = 'optimized',
-  CDN = 'cdn',
+}
+
+enum CDNDirectory {
+  CDNS = 'cdn',
+  ASSETS = 'assets',
+  UPLOADS = 'uploads',
+  STATIC = 'static',
+}
+
+enum CDNPath {
+  ENVIRONMENTS = 'environments.json',
 }
 
 enum ImageFormat {
@@ -30,7 +40,7 @@ enum ImageFormat {
 }
 
 const formatChoices = Object.values(ImageFormat);
-export function buildCdnJson(
+function buildCdnJson(
   images: string[],
   targetDir: string,
   format: ImageFormat
@@ -66,88 +76,25 @@ export function buildCdnJson(
     };
   });
 
-  // Write cdn.json
-  const cdnFolder = path.join(process.cwd(), Folders.CDN);
+  // Write
+  const cdnFolder = path.join(process.cwd(), CDNDirectory.CDNS);
   if (!fs.existsSync(cdnFolder)) fs.mkdirSync(cdnFolder, { recursive: true });
 
   fs.writeFileSync(
-    path.join(cdnFolder, 'cdn.json'),
+    path.join(cdnFolder, CDNPath.ENVIRONMENTS),
     JSON.stringify(cdnData, null, 2)
   );
 
-  console.log('CDN JSON file generated at:', path.join(cdnFolder, 'cdn.json'));
+  console.log(
+    pastel.multiline(
+      `CDN JSON file generated at: ${path.join(
+        cdnFolder,
+        CDNPath.ENVIRONMENTS
+      )}`
+    )
+  );
 }
 
-export function buildCdnTs(
-  images: string[],
-  targetDir: string,
-  format: ImageFormat
-) {
-  const importLines: string[] = [];
-  const cdnData: Record<string, any> = {};
-  const usedVarNames = new Set<string>();
-
-  images.forEach((filePath) => {
-    const relativePath = path.relative(targetDir, filePath); // e.g., rooms/night/room1.png
-    const parts = relativePath.split(path.sep);
-    const fileNameBase = path.basename(filePath, path.extname(filePath));
-
-    const sources: Record<string, string> = {};
-
-    sizes.forEach((size) => {
-      const fileName = `${fileNameBase}.${format}`;
-
-      // Generate unique camelCase import variable
-      let importVar = _.camelCase(
-        [...parts.slice(0, -1), fileNameBase, size.name].join('_')
-      );
-      let counter = 1;
-      while (usedVarNames.has(importVar)) {
-        importVar = `${importVar}${counter}`;
-        counter++;
-      }
-      usedVarNames.add(importVar);
-
-      const importPath = `raw:assets/rooms/${parts.slice(0, -1).join('/')}/${
-        size.name
-      }/${fileName}`;
-      importLines.push(`import ${importVar} from "${importPath}";`);
-
-      sources[size.name] = importVar;
-    });
-
-    // Build nested object by folder structure
-    let current = cdnData;
-    for (let i = 0; i < parts.length - 1; i++) {
-      if (!current[parts[i]]) current[parts[i]] = {};
-      current = current[parts[i]];
-    }
-
-    // Store images by name to avoid overwriting
-    current[fileNameBase] = {
-      // name: fileNameBase,
-      sources: sources,
-    };
-  });
-
-  const tsContent = `
-${importLines.join('\n')}
-
-const cdn = ${JSON.stringify(cdnData, null, 2).replace(
-    /"sources":\s*{([^}]+)}/g, // match sources object
-    (match) => match.replace(/"([^"]+)":\s*"([^"]+)"/g, '$1: $2') // remove quotes from values only
-  )};
-
-export default cdn;
-`;
-
-  const cdnFolder = path.join(process.cwd(), Folders.CDN);
-  if (!fs.existsSync(cdnFolder)) fs.mkdirSync(cdnFolder, { recursive: true });
-
-  fs.writeFileSync(path.join(cdnFolder, 'cdn.ts'), tsContent);
-
-  console.log('CDN TS file generated at:', path.join(cdnFolder, 'cdn.ts'));
-}
 async function main() {
   // Automatically detect /assets/originals one folder up
   let defaultDir = path.join(process.cwd(), '..', Folders.ORIGINALS);
@@ -244,12 +191,13 @@ async function main() {
           pipeline = pipeline.png({
             quality,
             adaptiveFiltering: true,
+            effort: 6,
           });
           break;
         case ImageFormat.WEBP:
           pipeline = pipeline.webp({
             quality,
-            // lossless: true,
+            lossless: true,
           });
           break;
         case ImageFormat.AVIF:
@@ -267,7 +215,8 @@ async function main() {
   }
 
   buildCdnJson(images, targetDir, answers.format as ImageFormat);
-  buildCdnTs(images, targetDir, answers.format as ImageFormat);
+
+  // buildCdnTs(images, targetDir, answers.format as ImageFormat);
 
   spinner.stop();
 

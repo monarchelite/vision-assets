@@ -1,0 +1,66 @@
+function buildCdnTs(images: string[], targetDir: string, format: ImageFormat) {
+  const importLines: string[] = [];
+  const cdnData: Record<string, any> = {};
+  const usedVarNames = new Set<string>();
+
+  images.forEach((filePath) => {
+    const relativePath = path.relative(targetDir, filePath); // e.g., rooms/night/room1.png
+    const parts = relativePath.split(path.sep);
+    const fileNameBase = path.basename(filePath, path.extname(filePath));
+
+    const sources: Record<string, string> = {};
+
+    sizes.forEach((size) => {
+      const fileName = `${fileNameBase}.${format}`;
+
+      // Generate unique camelCase import variable
+      let importVar = _.camelCase(
+        [...parts.slice(0, -1), fileNameBase, size.name].join('_')
+      );
+      let counter = 1;
+      while (usedVarNames.has(importVar)) {
+        importVar = `${importVar}${counter}`;
+        counter++;
+      }
+      usedVarNames.add(importVar);
+
+      const importPath = `raw:assets/rooms/${parts.slice(0, -1).join('/')}/${
+        size.name
+      }/${fileName}`;
+      importLines.push(`import ${importVar} from "${importPath}";`);
+
+      sources[size.name] = importVar;
+    });
+
+    // Build nested object by folder structure
+    let current = cdnData;
+    for (let i = 0; i < parts.length - 1; i++) {
+      if (!current[parts[i]]) current[parts[i]] = {};
+      current = current[parts[i]];
+    }
+
+    // Store images by name to avoid overwriting
+    current[fileNameBase] = {
+      // name: fileNameBase,
+      sources: sources,
+    };
+  });
+
+  const tsContent = `
+${importLines.join('\n')}
+
+const cdn = ${JSON.stringify(cdnData, null, 2).replace(
+    /"sources":\s*{([^}]+)}/g, // match sources object
+    (match) => match.replace(/"([^"]+)":\s*"([^"]+)"/g, '$1: $2') // remove quotes from values only
+  )};
+
+export default cdn;
+`;
+
+  const cdnFolder = path.join(process.cwd(), CDNDirectory.CDNS);
+  if (!fs.existsSync(cdnFolder)) fs.mkdirSync(cdnFolder, { recursive: true });
+
+  fs.writeFileSync(path.join(cdnFolder, 'cdn.ts'), tsContent);
+
+  console.log('CDN TS file generated at:', path.join(cdnFolder, 'cdn.ts'));
+}

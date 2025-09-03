@@ -1,0 +1,344 @@
+{
+  "vision-os-v5": {
+    "night": {
+      "room-siting-room-night": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/night/sm/room-siting-room-night.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/night/lg/room-siting-room-night.png"
+        }
+      },
+      "room-living-room-night": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/night/sm/room-living-room-night.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/night/lg/room-living-room-night.png"
+        }
+      },
+      "room-kitchen-night": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/night/sm/room-kitchen-night.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/night/lg/room-kitchen-night.png"
+        }
+      },
+      "room-bedroom-night": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/night/sm/room-bedroom-night.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/night/lg/room-bedroom-night.png"
+        }
+      }
+    },
+    "day": {
+      "room-siting-room": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/day/sm/room-siting-room.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/day/lg/room-siting-room.png"
+        }
+      },
+      "room-living-room": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/day/sm/room-living-room.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/day/lg/room-living-room.png"
+        }
+      },
+      "room-kitchen": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/day/sm/room-kitchen.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/day/lg/room-kitchen.png"
+        }
+      },
+      "room-bedroom": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/day/sm/room-bedroom.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v5/day/lg/room-bedroom.png"
+        }
+      }
+    }
+  },
+  "vision-os-v4": {
+    "day": {
+      "working-area-productivity": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/sm/working-area-productivity.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/lg/working-area-productivity.png"
+        }
+      },
+      "tv-area-entertainment": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/sm/tv-area-entertainment.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/lg/tv-area-entertainment.png"
+        }
+      },
+      "table-area-dining": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/sm/table-area-dining.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/lg/table-area-dining.png"
+        }
+      },
+      "sitting-room-lounge": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/sm/sitting-room-lounge.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/lg/sitting-room-lounge.png"
+        }
+      },
+      "silence-room-sanctuary": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/sm/silence-room-sanctuary.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/lg/silence-room-sanctuary.png"
+        }
+      },
+      "reading-room-haven": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/sm/reading-room-haven.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/lg/reading-room-haven.png"
+        }
+      },
+      "bedroom-retreat": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/sm/bedroom-retreat.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/lg/bedroom-retreat.png"
+        }
+      },
+      "balcony-with-sofa-and-stairs": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/sm/balcony-with-sofa-and-stairs.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v4/day/lg/balcony-with-sofa-and-stairs.png"
+        }
+      }
+    }
+  },
+  "vision-os-v3": {
+    "day": {
+      "sunlight-on-window": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v3/day/sm/sunlight-on-window.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v3/day/lg/sunlight-on-window.png"
+        }
+      },
+      "sofa-living-room": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v3/day/sm/sofa-living-room.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v3/day/lg/sofa-living-room.png"
+        }
+      },
+      "sky-scene": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v3/day/sm/sky-scene.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v3/day/lg/sky-scene.png"
+        }
+      },
+      "sky-clear": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v3/day/sm/sky-clear.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v3/day/lg/sky-clear.png"
+        }
+      },
+      "reading-area-room": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v3/day/sm/reading-area-room.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v3/day/lg/reading-area-room.png"
+        }
+      }
+    }
+  },
+  "vision-os-v2": {
+    "day": {
+      "name-office-sanctuary": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/sm/name-office-sanctuary.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/lg/name-office-sanctuary.png"
+        }
+      },
+      "name-living-room-with-view": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/sm/name-living-room-with-view.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/lg/name-living-room-with-view.png"
+        }
+      },
+      "name-living-room-with-dog": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/sm/name-living-room-with-dog.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/lg/name-living-room-with-dog.png"
+        }
+      },
+      "name-living-room-lounge": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/sm/name-living-room-lounge.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/lg/name-living-room-lounge.png"
+        }
+      },
+      "name-living-room-cozy": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/sm/name-living-room-cozy.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/lg/name-living-room-cozy.png"
+        }
+      },
+      "name-living-room-chic": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/sm/name-living-room-chic.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/lg/name-living-room-chic.png"
+        }
+      },
+      "name-living-room-bright": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/sm/name-living-room-bright.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/lg/name-living-room-bright.png"
+        }
+      },
+      "name-kitchen-haven": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/sm/name-kitchen-haven.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/lg/name-kitchen-haven.png"
+        }
+      },
+      "name-bedroom-retreat": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/sm/name-bedroom-retreat.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os-v2/day/lg/name-bedroom-retreat.png"
+        }
+      }
+    }
+  },
+  "vision-os": {
+    "night": {
+      "time-night-room-washroom": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/sm/time-night-room-washroom.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/lg/time-night-room-washroom.png"
+        }
+      },
+      "time-night-room-office": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/sm/time-night-room-office.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/lg/time-night-room-office.png"
+        }
+      },
+      "time-night-room-living-room": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/sm/time-night-room-living-room.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/lg/time-night-room-living-room.png"
+        }
+      },
+      "time-night-room-kitchen": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/sm/time-night-room-kitchen.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/lg/time-night-room-kitchen.png"
+        }
+      },
+      "time-night-room-gym": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/sm/time-night-room-gym.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/lg/time-night-room-gym.png"
+        }
+      },
+      "time-night-room-family-room": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/sm/time-night-room-family-room.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/lg/time-night-room-family-room.png"
+        }
+      },
+      "time-night-room-dining-room": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/sm/time-night-room-dining-room.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/lg/time-night-room-dining-room.png"
+        }
+      },
+      "time-night-room-bedroom": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/sm/time-night-room-bedroom.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/lg/time-night-room-bedroom.png"
+        }
+      },
+      "time-night-room-bathroom": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/sm/time-night-room-bathroom.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/lg/time-night-room-bathroom.png"
+        }
+      },
+      "time-night-room-back-yard": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/sm/time-night-room-back-yard.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/night/lg/time-night-room-back-yard.png"
+        }
+      }
+    },
+    "day": {
+      "time-day-room-washroom": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/sm/time-day-room-washroom.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/lg/time-day-room-washroom.png"
+        }
+      },
+      "time-day-room-office": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/sm/time-day-room-office.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/lg/time-day-room-office.png"
+        }
+      },
+      "time-day-room-living-room": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/sm/time-day-room-living-room.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/lg/time-day-room-living-room.png"
+        }
+      },
+      "time-day-room-kitchen": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/sm/time-day-room-kitchen.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/lg/time-day-room-kitchen.png"
+        }
+      },
+      "time-day-room-gym": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/sm/time-day-room-gym.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/lg/time-day-room-gym.png"
+        }
+      },
+      "time-day-room-family-room": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/sm/time-day-room-family-room.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/lg/time-day-room-family-room.png"
+        }
+      },
+      "time-day-room-dining-room": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/sm/time-day-room-dining-room.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/lg/time-day-room-dining-room.png"
+        }
+      },
+      "time-day-room-bedroom": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/sm/time-day-room-bedroom.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/lg/time-day-room-bedroom.png"
+        }
+      },
+      "time-day-room-bathroom": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/sm/time-day-room-bathroom.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/lg/time-day-room-bathroom.png"
+        }
+      },
+      "time-day-room-back-yard": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/sm/time-day-room-back-yard.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/vision-os/day/lg/time-day-room-back-yard.png"
+        }
+      }
+    }
+  },
+  "apple": {
+    "night": {
+      "time-night-room-modern-apartment": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/apple/night/sm/time-night-room-modern-apartment.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/apple/night/lg/time-night-room-modern-apartment.png"
+        }
+      }
+    },
+    "day": {
+      "time-day-room-modern-apartment": {
+        "sources": {
+          "sm": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/apple/day/sm/time-day-room-modern-apartment.png",
+          "lg": "https://cdn.jsdelivr.net/gh/monarchelite/vision-assets@main/optimized/apple/day/lg/time-day-room-modern-apartment.png"
+        }
+      }
+    }
+  }
+}
